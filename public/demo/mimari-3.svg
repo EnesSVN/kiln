@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0.6" y2="1">
+    <stop offset="0" stop-color="#e6e9ec"/><stop offset="1" stop-color="#7a8590"/>
+  </linearGradient>
+  <pattern id="slat" width="1600" height="20" patternUnits="userSpaceOnUse">
+    <rect width="1600" height="20" fill="url(#g)"/>
+    <rect width="1600" height="2" fill="#ffffff" opacity="0.28"/>
+    <rect width="1600" height="3" y="17" fill="#000000" opacity="0.30"/>
+  </pattern></defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <polygon points="200,850 800,180 1400,850" fill="#ffffff" opacity="0.5"/>
+  <rect x="640" y="560" width="320" height="290" fill="#43505c" opacity="0.7"/>
+  <rect x="0" y="850" width="1600" height="50" fill="#4a545f"/>
+</svg>

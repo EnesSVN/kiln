@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe9e0"/><stop offset="1" stop-color="#c9bda9"/></linearGradient><linearGradient id="ahsap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9b98c"/><stop offset="1" stop-color="#9c7442"/></linearGradient></defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect x="0" y="600" width="800" height="200" fill="#8a7256" opacity="0.35"/>
+  <rect x="60" y="560" width="680" height="46" rx="6" fill="#3d3730"/>
+  <rect x="60" y="300" width="120" height="260" rx="8" fill="#2f2a25"/>
+  <rect x="640" y="330" width="100" height="230" rx="8" fill="#2f2a25"/>
+  <circle cx="120" cy="420" r="52" fill="#12467f"/>
+  <circle cx="120" cy="420" r="22" fill="#0f1f33"/>
+  <path d="M180 420 q34 -74 78 -6 q26 44 62 -34 q30 -66 66 12 q22 62 60 -18 q26 -56 62 24 q22 60 52 22 l0 46 q-30 38 -52 -22 q-40 -80 -62 -24 q-38 80 -60 18 q-36 -78 -66 -12 q-36 78 -62 34 q-44 -68 -78 6 z"
+        fill="url(#ahsap)"/>
+  <path d="M180 442 q34 -70 78 -4 q26 42 62 -32 q30 -62 66 12 q22 58 60 -16 q26 -52 62 22 q22 56 52 20"
+        stroke="#ffffff" stroke-opacity="0.28" stroke-width="5" fill="none"/>
+  <path d="M250 640 q26 -34 52 -4 q-30 26 -52 4 z" fill="#c8a377"/>
+  <path d="M330 652 q30 -40 60 -6 q-34 30 -60 6 z" fill="#d8b489"/>
+  <path d="M430 638 q22 -30 46 -2 q-26 22 -46 2 z" fill="#c8a377"/>
+  <path d="M508 654 q28 -36 56 -4 q-32 28 -56 4 z" fill="#e0c09a"/>
+</svg>

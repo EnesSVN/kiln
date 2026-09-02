@@ -1,0 +1,222 @@
+{
+  "id": "demo-bahce-0004-4000-8000-000000000004",
+  "version": 1,
+  "meta": {
+    "title": "Zeytin Bahçe | Bursa",
+    "description": "Bursa Mudanya'da zeytinlik içinde düğün ve etkinlik mekânı. 120 kişilik açık alan, kapalı kış bahçesi ve kendi mutfağımız.",
+    "lang": "tr",
+    "business": {
+      "name": "Zeytin Bahçe",
+      "phone": "+90 224 555 0163",
+      "address": "Güzelyalı Mah. Zeytinlik Sok. No:9, Mudanya, Bursa",
+      "geo": [
+        40.376,
+        28.885
+      ]
+    }
+  },
+  "tokens": {
+    "colors": {
+      "bg": "#fdfaf6",
+      "fg": "#241c15",
+      "muted": "#6d5d4e",
+      "primary": "#c2410c",
+      "primaryFg": "#ffffff",
+      "border": "#e9ddd0"
+    },
+    "font": {
+      "heading": "sourceSerif",
+      "body": "figtree"
+    },
+    "scale": {
+      "h1": 65,
+      "h2": 33,
+      "h3": 21,
+      "body": 17
+    },
+    "radius": 14,
+    "spacing": "wide"
+  },
+  "nodes": [
+    {
+      "id": "hdr",
+      "type": "HeaderMinimal",
+      "props": {
+        "logo": "Zeytin Bahçe",
+        "links": [
+          {
+            "label": "Mekân",
+            "href": "#mekan"
+          },
+          {
+            "label": "İletişim",
+            "href": "#iletisim"
+          }
+        ],
+        "animation": {
+          "type": "fade",
+          "duration": 400,
+          "delay": 0,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "HeroText",
+      "props": {
+        "title": "Zeytinliğin içinde, denizin üstünde.",
+        "subtitle": "Mudanya'da 200 yıllık zeytin ağaçlarının arasında 120 kişilik açık alan. Kış bahçesi yağmura karşı hazır, mutfak bize ait — dışarıdan catering şartı yok.",
+        "cta": {
+          "label": "Tarih sor",
+          "href": "#iletisim"
+        },
+        "secondaryCta": {
+          "label": "Mekânı gez",
+          "href": "#mekan"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 650,
+          "delay": 60,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "word",
+          "stagger": 70
+        }
+      }
+    },
+    {
+      "id": "kar",
+      "type": "Carousel",
+      "props": {
+        "title": "Mekân",
+        "subtitle": "Dört farklı alan; hepsini tek günde kullanabilirsiniz.",
+        "items": [
+          {
+            "src": "/demo/bahce-1.svg",
+            "alt": "Zeytin ağaçlarının altında kurulmuş uzun masa"
+          },
+          {
+            "src": "/demo/bahce-2.svg",
+            "alt": "Akşam ışığında asma altı oturma alanı"
+          },
+          {
+            "src": "/demo/bahce-3.svg",
+            "alt": "Taş duvarlı avlu ve sarmaşıklar"
+          },
+          {
+            "src": "/demo/bahce-4.svg",
+            "alt": "Işıklandırılmış tören alanı"
+          }
+        ],
+        "autoplayMs": 5000,
+        "animation": {
+          "type": "fade",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        },
+        "anchorId": "mekan"
+      }
+    },
+    {
+      "id": "cta",
+      "type": "CTA",
+      "props": {
+        "title": "2026 yaz tarihleri açıldı.",
+        "cta": {
+          "label": "Uygun tarihleri gör",
+          "href": "#iletisim"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        },
+        "anchorId": "fiyatlar"
+      }
+    },
+    {
+      "id": "ilt",
+      "type": "Contact",
+      "props": {
+        "title": "İletişim",
+        "subtitle": "Formu doldurun ya da doğrudan arayın. Hafta içi aynı gün dönüyoruz.",
+        "email": "merhaba@zeytinbahce.com",
+        "contact": {
+          "phone": "+90 224 555 0163",
+          "email": "merhaba@zeytinbahce.com",
+          "address": "Güzelyalı Mah. Zeytinlik Sok. No:9, Mudanya, Bursa",
+          "hours": "Hafta içi 09:00–18:00, Cumartesi 10:00–16:00"
+        },
+        "mapEmbedUrl": "https://www.openstreetmap.org/export/embed.html?bbox=28.869,40.368,28.901,40.384&layer=mapnik&marker=40.376,28.885",
+        "gonderEtiketi": "Mesajı gönder",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        },
+        "anchorId": "iletisim",
+        "formEtiketleri": {
+          "isim": "İsim",
+          "telefon": "Telefon",
+          "mesaj": "Mesaj"
+        }
+      }
+    },
+    {
+      "id": "ftr",
+      "type": "Footer",
+      "props": {
+        "about": {
+          "title": "Zeytin Bahçe",
+          "text": "Mudanya'da aile işletmesi bir etkinlik mekânı. 2018'den beri yılda yaklaşık kırk düğün ağırlıyoruz."
+        },
+        "links": {
+          "title": "Bağlantılar",
+          "items": [
+            {
+              "label": "Mekân",
+              "href": "#mekan"
+            },
+            {
+              "label": "İletişim",
+              "href": "#iletisim"
+            }
+          ]
+        },
+        "contact": {
+          "title": "İletişim",
+          "phone": "+90 224 555 0163",
+          "email": "merhaba@zeytinbahce.com",
+          "address": "Güzelyalı Mah. Zeytinlik Sok. No:9, Mudanya, Bursa"
+        },
+        "bottomText": "© 2026 Zeytin Bahçe. Tüm hakları saklıdır.",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    }
+  ]
+}

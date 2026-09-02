@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs><linearGradient id="aksam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0b26a"/><stop offset="1" stop-color="#5c3d2e"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#aksam)"/>
+  <rect x="0" y="700" width="1600" height="200" fill="#4a3a2a" opacity="0.55"/>
+  <rect x="90" y="150" width="1420" height="26" rx="6" fill="#6b4f33"/>
+  <rect x="120" y="176" width="34" height="560" fill="#6b4f33"/>
+  <rect x="1446" y="176" width="34" height="560" fill="#6b4f33"/>
+  <path d="M120 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="112" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M212 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="204" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M304 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="296" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M396 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="388" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M488 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="480" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M580 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="572" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M672 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="664" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M764 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="756" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M856 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="848" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M948 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="940" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M1040 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="1032" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M1132 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="1124" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M1224 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="1216" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M1316 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="1308" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M1408 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="1400" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <path d="M1500 214 q18 60 -6 104" stroke="#4a5c3a" stroke-width="9" fill="none"/>
+  <ellipse cx="1492" cy="330" rx="26" ry="17" fill="#5d7048" opacity="0.9"/>
+  <circle cx="150" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="240" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="330" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="420" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="510" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="600" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="690" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="780" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="870" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="960" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="1050" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="1140" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="1230" cy="212" r="9" fill="#ffd79a"/>
+  <circle cx="1320" cy="198" r="9" fill="#ffd79a"/>
+  <circle cx="1410" cy="212" r="9" fill="#ffd79a"/>
+  <rect x="480" y="560" width="640" height="30" rx="8" fill="#8a6b47"/>
+  <rect x="520" y="590" width="24" height="120" fill="#6b4f33"/>
+  <rect x="1056" y="590" width="24" height="120" fill="#6b4f33"/>
+  <rect x="330" y="600" width="150" height="120" rx="14" fill="#c2410c" opacity="0.85"/>
+  <rect x="1120" y="600" width="150" height="120" rx="14" fill="#c2410c" opacity="0.85"/>
+  <circle cx="800" cy="548" r="30" fill="#ffe6bd"/>
+</svg>

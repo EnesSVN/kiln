@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs><linearGradient id="zemin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0ece4"/><stop offset="1" stop-color="#d2c9b8"/></linearGradient><linearGradient id="tabla" x1="0" y1="0" x2="0.7" y2="1"><stop offset="0" stop-color="#a97b4a"/><stop offset="1" stop-color="#6b4526"/></linearGradient></defs>
+  <rect width="800" height="800" fill="url(#zemin)"/>
+  <rect x="150" y="176" width="86" height="60" rx="10" fill="#8d6a42"/>
+  <rect x="330" y="176" width="86" height="60" rx="10" fill="#8d6a42"/>
+  <rect x="510" y="176" width="86" height="60" rx="10" fill="#8d6a42"/>
+  <rect x="150" y="604" width="86" height="60" rx="10" fill="#8d6a42"/>
+  <rect x="330" y="604" width="86" height="60" rx="10" fill="#8d6a42"/>
+  <rect x="510" y="604" width="86" height="60" rx="10" fill="#8d6a42"/>
+  <ellipse cx="400" cy="470" rx="300" ry="42" fill="#2f2416" opacity="0.18"/>
+  <rect x="96" y="250" width="608" height="216" rx="14" fill="url(#tabla)"/>
+  <rect x="96" y="250" width="608" height="18" rx="9" fill="#ffffff" opacity="0.30"/>
+  <path d="M150 268 q250 60 0 180 M300 268 q250 60 0 180 M450 268 q250 60 0 180 M600 268 q160 60 0 180"
+        stroke="#3d2a16" stroke-opacity="0.20" stroke-width="4" fill="none"/>
+  <rect x="150" y="466" width="26" height="128" fill="#6d4d2c"/>
+  <rect x="624" y="466" width="26" height="128" fill="#6d4d2c"/>
+  <rect x="96" y="452" width="608" height="16" fill="#000000" opacity="0.20"/>
+</svg>

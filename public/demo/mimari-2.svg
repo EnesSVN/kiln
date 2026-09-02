@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0.6" y2="1">
+    <stop offset="0" stop-color="#f0ece6"/><stop offset="1" stop-color="#b9a68e"/>
+  </linearGradient>
+  <pattern id="slat" width="1600" height="20" patternUnits="userSpaceOnUse">
+    <rect width="1600" height="20" fill="url(#g)"/>
+    <rect width="1600" height="2" fill="#ffffff" opacity="0.28"/>
+    <rect width="1600" height="3" y="17" fill="#000000" opacity="0.30"/>
+  </pattern></defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="200" y="220" width="1200" height="560" rx="10" fill="#ffffff" opacity="0.6"/>
+  <rect x="260" y="300" width="480" height="400" fill="#5d6b78" opacity="0.55"/>
+  <rect x="800" y="300" width="540" height="180" fill="#8a7358" opacity="0.6"/>
+  <rect x="800" y="520" width="540" height="180" fill="#8a7358" opacity="0.4"/>
+</svg>

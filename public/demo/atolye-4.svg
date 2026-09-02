@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs><linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7e3dc"/><stop offset="1" stop-color="#bdb6aa"/></linearGradient><linearGradient id="celik" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#f2f5f8"/><stop offset="1" stop-color="#9aa6b3"/></linearGradient><linearGradient id="sap" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#7a5230"/><stop offset="1" stop-color="#4a2f18"/></linearGradient></defs>
+  <rect width="800" height="800" fill="url(#bg4)"/>
+  <rect x="40" y="150" width="720" height="26" rx="8" fill="#2f2a25"/>
+  <rect x="120" y="300" width="34" height="210" rx="4" fill="url(#celik)"/>
+  <path d="M120 510 l34 0 l-17 34 z" fill="#d7dde4"/>
+  <rect x="112" y="176" width="50" height="130" rx="14" fill="url(#sap)"/>
+  <rect x="112" y="264" width="50" height="12" fill="#12467f" opacity="0.75"/>
+  <rect x="216" y="300" width="22" height="256" rx="4" fill="url(#celik)"/>
+  <path d="M216 556 l22 0 l-11 34 z" fill="#d7dde4"/>
+  <rect x="208" y="176" width="38" height="130" rx="14" fill="url(#sap)"/>
+  <rect x="208" y="264" width="38" height="12" fill="#12467f" opacity="0.75"/>
+  <rect x="300" y="300" width="46" height="302" rx="4" fill="url(#celik)"/>
+  <path d="M300 602 l46 0 l-23 34 z" fill="#d7dde4"/>
+  <rect x="292" y="176" width="62" height="130" rx="14" fill="url(#sap)"/>
+  <rect x="292" y="264" width="62" height="12" fill="#12467f" opacity="0.75"/>
+  <rect x="410" y="300" width="28" height="210" rx="4" fill="url(#celik)"/>
+  <path d="M410 510 l28 0 l-14 34 z" fill="#d7dde4"/>
+  <rect x="402" y="176" width="44" height="130" rx="14" fill="url(#sap)"/>
+  <rect x="402" y="264" width="44" height="12" fill="#12467f" opacity="0.75"/>
+  <rect x="500" y="300" width="58" height="256" rx="4" fill="url(#celik)"/>
+  <path d="M500 556 l58 0 l-29 34 z" fill="#d7dde4"/>
+  <rect x="492" y="176" width="74" height="130" rx="14" fill="url(#sap)"/>
+  <rect x="492" y="264" width="74" height="12" fill="#12467f" opacity="0.75"/>
+  <rect x="614" y="300" width="38" height="302" rx="4" fill="url(#celik)"/>
+  <path d="M614 602 l38 0 l-19 34 z" fill="#d7dde4"/>
+  <rect x="606" y="176" width="54" height="130" rx="14" fill="url(#sap)"/>
+  <rect x="606" y="264" width="54" height="12" fill="#12467f" opacity="0.75"/>
+  <rect x="0" y="640" width="800" height="160" fill="#2f2a25" opacity="0.10"/>
+</svg>

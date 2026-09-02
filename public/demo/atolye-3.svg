@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs><linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2ece2"/><stop offset="1" stop-color="#ddd2c0"/></linearGradient><linearGradient id="cita" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#c39a68"/><stop offset="1" stop-color="#8d6538"/></linearGradient></defs>
+  <rect width="800" height="800" fill="url(#bg3)"/>
+  <ellipse cx="410" cy="726" rx="250" ry="26" fill="#3b2e20" opacity="0.16"/>
+  <path d="M190 300 q210 -150 420 0 l0 74 q-210 -140 -420 0 z" fill="url(#cita)"/>
+  <rect x="250" y="250" width="34" height="420" rx="12" fill="url(#cita)"/>
+  <rect x="320" y="250" width="34" height="420" rx="12" fill="url(#cita)"/>
+  <rect x="390" y="250" width="34" height="420" rx="12" fill="url(#cita)"/>
+  <rect x="460" y="250" width="34" height="420" rx="12" fill="url(#cita)"/>
+  <rect x="530" y="250" width="34" height="420" rx="12" fill="url(#cita)"/>
+  <rect x="182" y="286" width="42" height="404" rx="14" fill="#7d5a33"/>
+  <rect x="576" y="286" width="42" height="404" rx="14" fill="#7d5a33"/>
+  <path d="M196 320 q206 -132 408 0" stroke="#ffffff" stroke-opacity="0.30" stroke-width="7" fill="none"/>
+</svg>

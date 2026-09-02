@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs><linearGradient id="arsiv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f1e7"/><stop offset="1" stop-color="#ddd2bd"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#arsiv)"/>
+  <rect x="60" y="150" width="680" height="16" fill="#8d7a5f"/>
+  <rect x="60" y="366" width="680" height="16" fill="#8d7a5f"/>
+  <circle cx="96" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="158" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="220" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="282" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="344" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="406" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="468" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="530" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="592" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="654" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <circle cx="716" cy="116" r="26" fill="#e8dcc6" stroke="#b3a58c" stroke-width="4"/>
+  <rect x="90" y="196" width="620" height="150" fill="#efe9dd"/>
+  <path d="M120 320 l120 -84 l120 84" stroke="#6d5d4e" stroke-width="4" fill="none"/>
+  <path d="M120 320 l240 0" stroke="#6d5d4e" stroke-width="4"/>
+  <path d="M420 236 l0 84 M470 236 l0 84 M520 236 l0 84 M570 236 l0 84" stroke="#b3a58c" stroke-width="3"/>
+  <path d="M420 278 l230 0" stroke="#c2410c" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="470" y="330" width="250" height="20" fill="#d9cdb6"/>
+  <rect x="500" y="238" width="70" height="92" fill="#efe6d4"/>
+  <rect x="580" y="196" width="54" height="134" fill="#e3d8c2"/>
+  <rect x="644" y="272" width="60" height="58" fill="#efe6d4"/>
+  <path d="M500 238 l35 -34 l35 34 z" fill="#c2410c" opacity="0.7"/>
+  <rect x="516" y="268" width="16" height="22" fill="#a8977c"/>
+  <rect x="596" y="230" width="16" height="22" fill="#a8977c"/>
+  <rect x="660" y="292" width="16" height="22" fill="#a8977c"/>  <rect x="0" y="520" width="800" height="80" fill="#a8977c" opacity="0.35"/>
+</svg>

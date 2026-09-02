@@ -1,0 +1,399 @@
+{
+  "id": "demo-vitrin-0002-4000-8000-000000000002",
+  "version": 1,
+  "meta": {
+    "title": "Kesit Mimarlık | İzmir",
+    "description": "İzmir merkezli mimarlık ve iç mimarlık stüdyosu. Konut, ofis ve ticari alan projeleri; avan projeden anahtar teslimine kadar tek ekip.",
+    "lang": "tr",
+    "business": {
+      "name": "Kesit Mimarlık",
+      "phone": "+90 232 555 0198",
+      "address": "Alsancak Mah. Kıbrıs Şehitleri Cad. No:42, Konak, İzmir",
+      "geo": [
+        38.4325,
+        27.1418
+      ]
+    }
+  },
+  "tokens": {
+    "colors": {
+      "bg": "#fdfaf6",
+      "fg": "#241c15",
+      "muted": "#6d5d4e",
+      "primary": "#c2410c",
+      "primaryFg": "#ffffff",
+      "border": "#e9ddd0"
+    },
+    "font": {
+      "heading": "sourceSerif",
+      "body": "figtree"
+    },
+    "scale": {
+      "h1": 65,
+      "h2": 33,
+      "h3": 21,
+      "body": 17
+    },
+    "radius": 14,
+    "spacing": "wide"
+  },
+  "nodes": [
+    {
+      "id": "hs-1",
+      "type": "HeaderSplit",
+      "props": {
+        "logo": "Kesit Mimarlık",
+        "links": [
+          {
+            "label": "Projeler",
+            "href": "#projeler"
+          },
+          {
+            "label": "Stüdyo",
+            "href": "#studyo"
+          },
+          {
+            "label": "Süreç",
+            "href": "#surec"
+          },
+          {
+            "label": "Fiyat",
+            "href": "#fiyat"
+          }
+        ],
+        "cta": {
+          "label": "Görüşme planla",
+          "href": "#iletisim"
+        },
+        "animation": {
+          "type": "fade",
+          "duration": 400,
+          "delay": 0,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "hf-1",
+      "type": "HeroFull",
+      "props": {
+        "title": "Yapıyı ayakta tutan detaydır.",
+        "subtitle": "Ölçek ne olursa olsun aynı ekip başlıyor ve bitiriyor: avan proje, ruhsat, uygulama ve saha takibi. Alt yükleniciye devredilen bir aşama yok.",
+        "image": {
+          "src": "/demo/mimari-7.svg",
+          "alt": "Cam cepheli ofis binası ve yanındaki tuğla blok"
+        },
+        "cta": {
+          "label": "Projeleri gör",
+          "href": "#projeler"
+        },
+        "secondaryCta": {
+          "label": "Süreç nasıl işliyor",
+          "href": "#surec"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 700,
+          "delay": 80,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "word",
+          "stagger": 70
+        }
+      }
+    },
+    {
+      "id": "prj",
+      "type": "Carousel",
+      "props": {
+        "anchorId": "projeler",
+        "title": "Seçilmiş projeler",
+        "subtitle": "2019'dan bu yana teslim ettiğimiz işlerden bir kesit.",
+        "items": [
+          {
+            "src": "/demo/mimari-1.svg",
+            "alt": "Alsancak'ta cam cepheli beş katlı ofis binası"
+          },
+          {
+            "src": "/demo/mimari-2.svg",
+            "alt": "Çeşme'de tek katlı yazlık konutun avlu cephesi"
+          },
+          {
+            "src": "/demo/mimari-3.svg",
+            "alt": "Urla'da eğimli çatılı taş ev"
+          }
+        ],
+        "autoplayMs": 5000,
+        "animation": {
+          "type": "fade",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "tur",
+      "type": "Services",
+      "props": {
+        "title": "Hangi işleri alıyoruz",
+        "subtitle": "Üç alanda çalışıyoruz. Hepsinde ruhsat ve uygulama dahil.",
+        "items": [
+          {
+            "icon": "ev",
+            "title": "Konut",
+            "text": "Müstakil ev, villa ve daire tadilatı. Ortalama proje süresi 4-7 ay.",
+            "href": "#projeler"
+          },
+          {
+            "icon": "kalkan",
+            "title": "Ofis",
+            "text": "Kurumsal ofis ve co-working. Akustik ve aydınlatma hesabı dahil.",
+            "href": "#projeler"
+          },
+          {
+            "icon": "yildiz",
+            "title": "Ticari",
+            "text": "Kafe, mağaza ve showroom. Marka kimliğiyle uyumlu iç mekân.",
+            "href": "#projeler"
+          }
+        ],
+        "columns": 3,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        }
+      }
+    },
+    {
+      "id": "std",
+      "type": "Features",
+      "props": {
+        "anchorId": "studyo",
+        "title": "Stüdyo",
+        "subtitle": "Altı kişiyiz ve her projede aynı mimar baştan sona takip ediyor.",
+        "items": [
+          {
+            "title": "Alsancak'taki ofisimiz",
+            "text": "Müşterilerle burada buluşuyoruz. Malzeme numunelerini ve maketleri yerinde görebiliyorsunuz.",
+            "image": {
+              "src": "/demo/mimari-4.svg",
+              "alt": "Kesit Mimarlık'ın Alsancak'taki çalışma ofisi"
+            }
+          },
+          {
+            "title": "2014'ten beri",
+            "text": "Kurulduğumuzdan bu yana 60'ın üzerinde proje teslim ettik. İşlerin yarısından fazlası önceki müşterilerin yönlendirmesiyle geldi.",
+            "image": {
+              "src": "/demo/mimari-5.svg",
+              "alt": "Stüdyonun maket ve çizim arşivi"
+            }
+          }
+        ],
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 110
+        }
+      }
+    },
+    {
+      "id": "src",
+      "type": "Features",
+      "props": {
+        "anchorId": "surec",
+        "title": "Süreç nasıl işliyor",
+        "subtitle": "Dört adım. Her adımın sonunda yazılı onay alıyoruz.",
+        "items": [
+          {
+            "title": "1. Yerinde ölçü ve bütçe",
+            "text": "Mekânı biz ölçüyoruz. İlk görüşmede bütçe aralığını konuşuyoruz; çizime başlamadan ikisi de netleşmiş oluyor.",
+            "image": {
+              "src": "/demo/mimari-6.svg",
+              "alt": "Yerinde ölçü alınan boş mekân"
+            }
+          },
+          {
+            "title": "2. Avan proje ve ruhsat",
+            "text": "Plan, kesit ve görselleştirme. Belediye süreçlerini biz yürütüyoruz, siz evrak peşinde koşmuyorsunuz.",
+            "image": {
+              "src": "/demo/mimari-8.svg",
+              "alt": "Avan proje çizimleri ve kesit paftaları"
+            }
+          },
+          {
+            "title": "3. Uygulama ve saha takibi",
+            "text": "Haftada bir şantiye raporu. Fark çıkarsa iş durmadan önce haber veriyoruz.",
+            "image": {
+              "src": "/demo/mimari-9.svg",
+              "alt": "Uygulama aşamasındaki şantiye"
+            }
+          }
+        ],
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 110
+        }
+      }
+    },
+    {
+      "id": "sss",
+      "type": "FAQ",
+      "props": {
+        "title": "Sıkça sorulanlar",
+        "items": [
+          {
+            "question": "Sadece proje çizdirebilir miyim?",
+            "answer": "Evet. Avan proje ve ruhsat paketini uygulamadan bağımsız veriyoruz. Uygulamayı başka bir ekibe yaptırabilirsiniz."
+          },
+          {
+            "question": "Ruhsat işlerini siz mi takip ediyorsunuz?",
+            "answer": "Evet, belediye ve ilgili kurum süreçleri fiyata dahil. Harç ve resmi bedeller hariç."
+          },
+          {
+            "question": "Şehir dışı proje alıyor musunuz?",
+            "answer": "İzmir ve çevresi öncelikli. Çeşme, Urla ve Alaçatı'da düzenli çalışıyoruz; daha uzağı proje ölçeğine göre değerlendiriyoruz."
+          },
+          {
+            "question": "Ne kadar sürede başlıyorsunuz?",
+            "answer": "Sözleşmeden sonra ortalama üç hafta. Yoğun dönemlerde sıraya alıyoruz ve baştan söylüyoruz."
+          }
+        ],
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 60
+        },
+        "anchorId": "sss"
+      }
+    },
+    {
+      "id": "fyt",
+      "type": "CTA",
+      "props": {
+        "anchorId": "fiyat",
+        "title": "Fiyatı ilk görüşmede net veriyoruz.",
+        "cta": {
+          "label": "Fiyat için görüşme planla",
+          "href": "#iletisim"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "ilt",
+      "type": "Contact",
+      "props": {
+        "anchorId": "iletisim",
+        "title": "İletişim",
+        "subtitle": "Projenizi anlatın, iki gün içinde dönüş yapalım.",
+        "email": "merhaba@kesitmimarlik.com",
+        "contact": {
+          "phone": "+90 232 555 0198",
+          "email": "merhaba@kesitmimarlik.com",
+          "address": "Alsancak Mah. Kıbrıs Şehitleri Cad. No:42, Konak, İzmir",
+          "hours": "Hafta içi 09:00–18:00 · Cumartesi randevuyla"
+        },
+        "mapEmbedUrl": "https://www.openstreetmap.org/export/embed.html?bbox=27.126,38.425,27.158,38.440&layer=mapnik&marker=38.4325,27.1418",
+        "gonderEtiketi": "Mesajı gönder",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        },
+        "formEtiketleri": {
+          "isim": "İsim",
+          "telefon": "Telefon",
+          "mesaj": "Mesaj"
+        }
+      }
+    },
+    {
+      "id": "ft-1",
+      "type": "Footer",
+      "props": {
+        "about": {
+          "title": "Kesit Mimarlık",
+          "text": "2014'ten beri İzmir ve çevresinde konut, ofis ve ticari alan projeleri yürütüyoruz. Ekip altı kişi; her projede aynı mimar baştan sona takip ediyor."
+        },
+        "links": {
+          "title": "Bağlantılar",
+          "items": [
+            {
+              "label": "Projeler",
+              "href": "#projeler"
+            },
+            {
+              "label": "Stüdyo",
+              "href": "#studyo"
+            },
+            {
+              "label": "Süreç",
+              "href": "#surec"
+            },
+            {
+              "label": "Sıkça sorulanlar",
+              "href": "#sss"
+            },
+            {
+              "label": "İletişim",
+              "href": "#iletisim"
+            }
+          ]
+        },
+        "contact": {
+          "title": "İletişim",
+          "phone": "+90 232 555 0198",
+          "email": "merhaba@kesitmimarlik.com",
+          "address": "Alsancak Mah. Kıbrıs Şehitleri Cad. No:42, Konak, İzmir"
+        },
+        "bottomText": "© 2026 Kesit Mimarlık. Tüm hakları saklıdır.",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    }
+  ]
+}

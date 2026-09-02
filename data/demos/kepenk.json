@@ -1,0 +1,332 @@
+{
+  "id": "demo-kepenk-0001-4000-8000-000000000001",
+  "version": 1,
+  "meta": {
+    "title": "Demir Kepenk Sistemleri | İstanbul",
+    "description": "İstanbul'da otomatik kepenk, panjur ve seksiyonel garaj kapısı montajı. 7/24 acil kepenk tamiri, 2 yıl garanti, ücretsiz keşif.",
+    "lang": "tr",
+    "business": {
+      "name": "Demir Kepenk Sistemleri",
+      "phone": "+90 212 555 0142",
+      "address": "Maltepe Mah. Sanayi Cad. No:114, Zeytinburnu, İstanbul",
+      "geo": [
+        40.9938,
+        28.9075
+      ]
+    }
+  },
+  "tokens": {
+    "colors": {
+      "bg": "#ffffff",
+      "fg": "#14181d",
+      "muted": "#5c6672",
+      "primary": "#d4611a",
+      "primaryFg": "#ffffff",
+      "border": "#e4e8ec"
+    },
+    "font": {
+      "heading": "manrope",
+      "body": "dmSans"
+    },
+    "scale": {
+      "h1": 65,
+      "h2": 33,
+      "h3": 21,
+      "body": 17
+    },
+    "radius": 10,
+    "spacing": "normal"
+  },
+  "nodes": [
+    {
+      "id": "header-1",
+      "type": "HeaderMinimal",
+      "props": {
+        "logo": "Demir Kepenk",
+        "links": [
+          {
+            "label": "Hizmetler",
+            "href": "#hizmetler"
+          },
+          {
+            "label": "Galeri",
+            "href": "#galeri"
+          },
+          {
+            "label": "Referanslar",
+            "href": "#referanslar"
+          },
+          {
+            "label": "İletişim",
+            "href": "#iletisim"
+          }
+        ],
+        "animation": {
+          "type": "fade",
+          "duration": 400,
+          "delay": 0,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "hero-1",
+      "type": "HeroSplit",
+      "props": {
+        "title": "Kepenğiniz akşam kapanmadıysa, sabahı beklemeyin.",
+        "subtitle": "Zeytinburnu merkezli ekibimiz İstanbul'un Avrupa yakasında otomatik kepenk, panjur ve seksiyonel garaj kapısı kuruyor. Arıza çağrılarına ortalama 90 dakikada yerinde müdahale ediyoruz. Montajda 2 yıl garanti, keşif ücretsiz.",
+        "image": {
+          "src": "/demo/kepenk.svg",
+          "alt": "Yarı açık otomatik çelik kepenk ve arkasındaki aydınlatılmış dükkân"
+        },
+        "cta": {
+          "label": "Hemen ara",
+          "href": "tel:+902125550142"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 650,
+          "delay": 80,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "word",
+          "stagger": 60
+        }
+      }
+    },
+    {
+      "id": "svc",
+      "type": "Services",
+      "props": {
+        "anchorId": "hizmetler",
+        "title": "Ne yapıyoruz",
+        "subtitle": "Dört başlıkta topluyoruz; hepsini aynı ekip yürütüyor, taşerona vermiyoruz.",
+        "items": [
+          {
+            "icon": "anahtar",
+            "title": "Otomatik kepenk",
+            "text": "Dükkân ve depo için motorlu çelik kepenk. Kumanda, fotosel ve manuel açma kolu standart."
+          },
+          {
+            "icon": "ev",
+            "title": "Panjur sistemleri",
+            "text": "Konutlarda alüminyum panjur. Isı ve ses yalıtımı için köpük dolgulu lamel."
+          },
+          {
+            "icon": "kamyon",
+            "title": "Seksiyonel garaj kapısı",
+            "text": "Otopark ve villa girişleri. Tavana paralel açılır, önünde yer kaplamaz."
+          },
+          {
+            "icon": "saat",
+            "title": "7/24 acil tamir",
+            "text": "Kepenk yarı yolda kaldıysa gece de geliyoruz. Ortalama varış 90 dakika."
+          }
+        ],
+        "columns": 4,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        }
+      }
+    },
+    {
+      "id": "gal",
+      "type": "Gallery",
+      "props": {
+        "anchorId": "galeri",
+        "title": "Biten işler",
+        "subtitle": "Son altı ayda İstanbul'un çeşitli ilçelerinde tamamladığımız montajlardan bir seçki.",
+        "items": [
+          {
+            "src": "/demo/kepenk-g1.svg",
+            "alt": "Zeytinburnu'nda bir dükkâna takılan turuncu bantlı otomatik kepenk"
+          },
+          {
+            "src": "/demo/kepenk-g2.svg",
+            "alt": "Ahşap görünümlü çerçeveli konut panjuru"
+          },
+          {
+            "src": "/demo/kepenk-g3.svg",
+            "alt": "Çift kanatlı depo kepengi ve orta direği"
+          },
+          {
+            "src": "/demo/kepenk-g4.svg",
+            "alt": "Seksiyonel garaj kapısı ve yan panelleri"
+          }
+        ],
+        "columns": 4,
+        "animation": {
+          "type": "scale",
+          "duration": 550,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 80
+        }
+      }
+    },
+    {
+      "id": "ref",
+      "type": "Testimonials",
+      "props": {
+        "anchorId": "referanslar",
+        "title": "Ne diyorlar",
+        "items": [
+          {
+            "quote": "Cumartesi gecesi kepenk yarı yolda kaldı, dükkânı açık bırakamazdım. Bir buçuk saatte geldiler, motoru değiştirip kapattılar.",
+            "author": "Hakan Öz",
+            "role": "Manav · Bakırköy"
+          },
+          {
+            "quote": "Üç şubemizin kepenklerini onlar yaptı. İki yıl oldu, sadece rutin bakım için geldiler.",
+            "author": "Sevil Aydın",
+            "role": "Zincir kuruyemişçi"
+          },
+          {
+            "quote": "Keşif için geldiklerinde ölçü tutmayacağını söyleyip fazladan iş çıkarmadılar. Fiyat da baştan neyse o kaldı.",
+            "author": "Mert Çalışkan",
+            "role": "Villa sahibi · Beylikdüzü"
+          }
+        ],
+        "columns": 3,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        }
+      }
+    },
+    {
+      "id": "sss",
+      "type": "FAQ",
+      "props": {
+        "title": "Sıkça sorulanlar",
+        "items": [
+          {
+            "question": "Keşif ücretli mi?",
+            "answer": "Avrupa yakasında ücretsiz. Anadolu yakası ve şehir dışında yol bedeli alıyoruz, iş bize verilirse iade ediyoruz."
+          },
+          {
+            "question": "Ne kadar sürede takıyorsunuz?",
+            "answer": "Standart ölçülerde kepenk 3-5 iş günü. Özel ölçü ve seksiyonel kapıda 2-3 hafta."
+          },
+          {
+            "question": "Garanti neyi kapsıyor?",
+            "answer": "Motor ve işçilik 2 yıl. Lamel ve kasa 5 yıl. Elektrik kaynaklı arızalar kapsam dışında."
+          },
+          {
+            "question": "Elektrik kesilirse kepenk açılır mı?",
+            "answer": "Evet. Her motorda manuel açma kolu var; kesinti hâlinde elle kaldırılıyor."
+          },
+          {
+            "question": "Ödeme nasıl?",
+            "answer": "Montajda %50, teslimde %50. Kurumsal müşterilere fatura karşılığı 30 gün vade."
+          }
+        ],
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 60
+        }
+      }
+    },
+    {
+      "id": "ilt",
+      "type": "Contact",
+      "props": {
+        "anchorId": "iletisim",
+        "title": "Keşif isteyin",
+        "subtitle": "Formu doldurun ya da doğrudan arayın. Acil arızalarda telefon daha hızlı.",
+        "email": "servis@demirkepenk.com",
+        "contact": {
+          "phone": "+90 212 555 0142",
+          "email": "servis@demirkepenk.com",
+          "address": "Maltepe Mah. Sanayi Cad. No:114, Zeytinburnu, İstanbul",
+          "hours": "Hafta içi 08:30–19:00 · Acil servis 7/24"
+        },
+        "mapEmbedUrl": "https://www.openstreetmap.org/export/embed.html?bbox=28.891,40.986,28.924,41.002&layer=mapnik&marker=40.9938,28.9075",
+        "gonderEtiketi": "Keşif talebi gönder",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        },
+        "formEtiketleri": {
+          "isim": "İsim",
+          "telefon": "Telefon",
+          "mesaj": "Mesaj"
+        }
+      }
+    },
+    {
+      "id": "ftr",
+      "type": "Footer",
+      "props": {
+        "about": {
+          "title": "Demir Kepenk Sistemleri",
+          "text": "2009'dan beri Zeytinburnu'nda. Beş kişilik ekiple İstanbul Avrupa yakasında kepenk, panjur ve garaj kapısı montajı ve servisi yapıyoruz."
+        },
+        "links": {
+          "title": "Bağlantılar",
+          "items": [
+            {
+              "label": "Hizmetler",
+              "href": "#hizmetler"
+            },
+            {
+              "label": "Galeri",
+              "href": "#galeri"
+            },
+            {
+              "label": "Referanslar",
+              "href": "#referanslar"
+            },
+            {
+              "label": "İletişim",
+              "href": "#iletisim"
+            }
+          ]
+        },
+        "contact": {
+          "title": "İletişim",
+          "phone": "+90 212 555 0142",
+          "email": "servis@demirkepenk.com",
+          "address": "Maltepe Mah. Sanayi Cad. No:114, Zeytinburnu, İstanbul",
+          "hours": "Acil servis 7/24"
+        },
+        "bottomText": "© 2026 Demir Kepenk Sistemleri. Tüm hakları saklıdır.",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    }
+  ]
+}

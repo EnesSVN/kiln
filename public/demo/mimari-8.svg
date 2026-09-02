@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs><linearGradient id="pafta" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#efe9dc"/><stop offset="1" stop-color="#d5cbb6"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#pafta)"/>
+  <rect x="60" y="120" width="210" height="150" fill="#fbf8f1" stroke="#c8bda6" stroke-width="3"/>
+  <path d="M80 250 l0 -60 l60 0 l0 60 z" stroke="#3a3128" stroke-width="3" fill="none"/>
+  <path d="M160 250 l0 -70 l70 0" stroke="#3a3128" stroke-width="3" fill="none"/>
+  <path d="M80 268 l170 0" stroke="#c2410c" stroke-width="2" stroke-dasharray="9 7"/>
+  <rect x="310" y="120" width="210" height="150" fill="#fbf8f1" stroke="#c8bda6" stroke-width="3"/>
+  <path d="M330 250 l0 -84 l80 0 l0 84 z" stroke="#3a3128" stroke-width="3" fill="none"/>
+  <path d="M410 250 l0 -70 l70 0" stroke="#3a3128" stroke-width="3" fill="none"/>
+  <path d="M330 268 l170 0" stroke="#c2410c" stroke-width="2" stroke-dasharray="9 7"/>
+  <rect x="560" y="120" width="210" height="150" fill="#fbf8f1" stroke="#c8bda6" stroke-width="3"/>
+  <path d="M580 250 l0 -108 l100 0 l0 108 z" stroke="#3a3128" stroke-width="3" fill="none"/>
+  <path d="M660 250 l0 -70 l70 0" stroke="#3a3128" stroke-width="3" fill="none"/>
+  <path d="M580 268 l170 0" stroke="#c2410c" stroke-width="2" stroke-dasharray="9 7"/>
+  <rect x="60" y="320" width="680" height="220" fill="#fbf8f1" stroke="#c8bda6" stroke-width="3"/>
+  <path d="M90 500 l620 0" stroke="#3a3128" stroke-width="5"/>
+  <path d="M120 500 l0 -120 l90 0 l0 120 M250 500 l0 -150 l120 0 l0 150 M410 500 l0 -96 l80 0 l0 96 M530 500 l0 -140 l150 0 l0 140"
+        stroke="#3a3128" stroke-width="4" fill="none"/>
+  <path d="M120 358 l90 0 M250 330 l120 0" stroke="#c2410c" stroke-width="4"/>
+  <path d="M90 524 l620 0 M90 514 l0 20 M710 514 l0 20" stroke="#8d7a5f" stroke-width="3"/>
+</svg>

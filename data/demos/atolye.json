@@ -1,0 +1,346 @@
+{
+  "id": "demo-atolye-0003-4000-8000-000000000003",
+  "version": 1,
+  "meta": {
+    "title": "Talaş Atölye | Ankara",
+    "description": "Ankara'da ısmarlama ahşap mobilya atölyesi. Masa, tezgâh ve dolap üretimi; ölçüye özel, tek parça malzemeden.",
+    "lang": "tr",
+    "business": {
+      "name": "Talaş Atölye",
+      "phone": "+90 312 555 0177",
+      "address": "Ostim OSB, 1234. Sokak No:7, Yenimahalle, Ankara",
+      "geo": [
+        39.9666,
+        32.7539
+      ]
+    }
+  },
+  "tokens": {
+    "colors": {
+      "bg": "#ffffff",
+      "fg": "#0f1f33",
+      "muted": "#54677f",
+      "primary": "#12467f",
+      "primaryFg": "#ffffff",
+      "border": "#dbe3ec"
+    },
+    "font": {
+      "heading": "manrope",
+      "body": "dmSans"
+    },
+    "scale": {
+      "h1": 61,
+      "h2": 31,
+      "h3": 20,
+      "body": 16
+    },
+    "radius": 4,
+    "spacing": "compact"
+  },
+  "nodes": [
+    {
+      "id": "hdr",
+      "type": "HeaderCentered",
+      "props": {
+        "logo": "Talaş Atölye",
+        "links": [
+          {
+            "label": "Hizmetler",
+            "href": "#hizmetler"
+          },
+          {
+            "label": "Üretim",
+            "href": "#uretim"
+          },
+          {
+            "label": "Galeri",
+            "href": "#galeri"
+          },
+          {
+            "label": "SSS",
+            "href": "#sss"
+          }
+        ],
+        "animation": {
+          "type": "fade",
+          "duration": 400,
+          "delay": 0,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "HeroText",
+      "props": {
+        "title": "Ölçüyü siz verin, gerisini biz halledelim.",
+        "subtitle": "Ismarlama masa, tezgâh ve dolap üretiyoruz. Katalog yok; her parça sizin mekânınızın ölçüsüne göre çiziliyor ve tek parça malzemeden kesiliyor.",
+        "cta": {
+          "label": "Ölçü gönder",
+          "href": "#iletisim"
+        },
+        "secondaryCta": {
+          "label": "Üretim süreci",
+          "href": "#uretim"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 650,
+          "delay": 60,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "word",
+          "stagger": 70
+        }
+      }
+    },
+    {
+      "id": "svc",
+      "type": "Services",
+      "props": {
+        "title": "Neler yapıyoruz",
+        "subtitle": "Dört başlıkta topluyoruz; hepsi aynı atölyede, aynı ekiple.",
+        "items": [
+          {
+            "icon": "anahtar",
+            "title": "Ismarlama üretim",
+            "text": "Ölçüye özel çizim ve imalat. Katalog ürünü satmıyoruz."
+          },
+          {
+            "icon": "kalkan",
+            "title": "Malzeme garantisi",
+            "text": "Masif ceviz ve meşe. Fatura üstünde parti numarası yazıyor."
+          },
+          {
+            "icon": "saat",
+            "title": "Net teslim tarihi",
+            "text": "Sipariş onayında tarih veriyoruz; kayarsa farkı biz karşılıyoruz."
+          },
+          {
+            "icon": "kamyon",
+            "title": "Montaj dahil",
+            "text": "Ankara içi nakliye ve yerinde montaj fiyata dahil."
+          }
+        ],
+        "columns": 4,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        },
+        "anchorId": "hizmetler"
+      }
+    },
+    {
+      "id": "feat",
+      "type": "Features",
+      "props": {
+        "title": "Üretim nasıl işliyor",
+        "items": [
+          {
+            "title": "1. Yerinde ölçü",
+            "text": "Mekâna gelip ölçüyü kendimiz alıyoruz. Duvar payı, priz yeri, kapı açılımı — hepsi çizime giriyor.",
+            "image": {
+              "src": "/demo/atolye-1.svg",
+              "alt": "Tornada işlenen ahşap masa ayağı"
+            }
+          },
+          {
+            "title": "2. Malzeme seçimi",
+            "text": "Depodaki kütükleri birlikte geziyoruz. Hangi parçanın hangi mobilyaya gideceğini siz seçiyorsunuz.",
+            "image": {
+              "src": "/demo/atolye-2.svg",
+              "alt": "Yağlanmış meşe tezgâh yüzeyi"
+            }
+          },
+          {
+            "title": "3. Atölyede imalat",
+            "text": "Kesim, zımpara ve cila aynı atölyede. Fason yok, ara yüklenici yok.",
+            "image": {
+              "src": "/demo/atolye-3.svg",
+              "alt": "El yapımı sandalye sırtlığı detayı"
+            }
+          }
+        ],
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 110
+        },
+        "anchorId": "uretim"
+      }
+    },
+    {
+      "id": "gal",
+      "type": "Gallery",
+      "props": {
+        "title": "Biten işler",
+        "items": [
+          {
+            "src": "/demo/atolye-7.svg",
+            "alt": "Teslime hazır altı kişilik ceviz yemek masası"
+          },
+          {
+            "src": "/demo/atolye-8.svg",
+            "alt": "Duvara monte meşe raf sistemi ve üzerindeki kutular"
+          },
+          {
+            "src": "/demo/atolye-9.svg",
+            "alt": "Kulpları takılmış dolap kapakları, kurumaya dizili"
+          },
+          {
+            "src": "/demo/atolye-4.svg",
+            "alt": "Atölyede dizilmiş kalem uçları"
+          },
+          {
+            "src": "/demo/atolye-5.svg",
+            "alt": "Metal ayaklı sehpa iskeleti"
+          },
+          {
+            "src": "/demo/atolye-6.svg",
+            "alt": "Cilalanmış ceviz kaplama"
+          }
+        ],
+        "columns": 3,
+        "animation": {
+          "type": "scale",
+          "duration": 550,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 80
+        },
+        "anchorId": "galeri"
+      }
+    },
+    {
+      "id": "ref",
+      "type": "Testimonials",
+      "props": {
+        "title": "Ne diyorlar",
+        "items": [
+          {
+            "quote": "Mutfak tezgâhını üç haftada teslim ettiler. Ölçü tutmayan tek nokta olmadı, silikon bile çekmedik.",
+            "author": "Elif Yurdakul",
+            "role": "Çankaya"
+          },
+          {
+            "quote": "Kütüğü depoda birlikte seçtik. Masanın hangi parçadan çıktığını biliyorum — bu hoşuma gitti.",
+            "author": "Murat Şen",
+            "role": "Ev sahibi"
+          },
+          {
+            "quote": "Ofis için on iki çalışma masası yaptılar. İkisinde kusur çıktı, itiraz etmeden değiştirdiler.",
+            "author": "Deniz Arca",
+            "role": "Kobi Yazılım"
+          }
+        ],
+        "columns": 3,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        }
+      }
+    },
+    {
+      "id": "sss",
+      "type": "FAQ",
+      "props": {
+        "title": "Sıkça sorulanlar",
+        "items": [
+          {
+            "question": "Keşif ve ölçü ücretli mi?",
+            "answer": "Ankara içinde ücretsiz. Şehir dışında yol masrafı alıyoruz, sipariş verilirse iade ediyoruz."
+          },
+          {
+            "question": "Ne kadar sürede teslim ediyorsunuz?",
+            "answer": "Masa ve sehpada 2-3 hafta, mutfak tezgâhında 3-5 hafta. Tarihi sipariş onayında yazılı veriyoruz."
+          },
+          {
+            "question": "Katalogdan seçebilir miyim?",
+            "answer": "Katalog yok. Her parça ölçüye özel çiziliyor; benzer işlerimizin fotoğraflarını gönderebiliriz."
+          },
+          {
+            "question": "Ödeme nasıl?",
+            "answer": "Siparişte %40, teslimde %60. Kredi kartına üç taksit yapabiliyoruz."
+          }
+        ],
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 60
+        },
+        "anchorId": "sss"
+      }
+    },
+    {
+      "id": "ftr",
+      "type": "Footer",
+      "props": {
+        "about": {
+          "title": "Talaş Atölye",
+          "text": "2011'den beri Ostim'de ısmarlama ahşap mobilya üretiyoruz. Dört kişilik ekibiz; kesimden montaja kadar her aşama bize ait."
+        },
+        "links": {
+          "title": "Bağlantılar",
+          "items": [
+            {
+              "label": "Hizmetler",
+              "href": "#hizmetler"
+            },
+            {
+              "label": "Üretim",
+              "href": "#uretim"
+            },
+            {
+              "label": "Galeri",
+              "href": "#galeri"
+            },
+            {
+              "label": "SSS",
+              "href": "#sss"
+            }
+          ]
+        },
+        "contact": {
+          "title": "İletişim",
+          "phone": "+90 312 555 0177",
+          "email": "merhaba@talasatolye.com",
+          "address": "Ostim OSB, 1234. Sokak No:7, Yenimahalle, Ankara"
+        },
+        "bottomText": "© 2026 Talaş Atölye. Tüm hakları saklıdır.",
+        "animation": {
+          "type": "fade",
+          "duration": 500,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        },
+        "anchorId": "iletisim"
+      }
+    }
+  ]
+}
