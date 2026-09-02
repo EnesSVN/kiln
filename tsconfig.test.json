@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".test-build",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "declaration": false,
+    "sourceMap": false,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "lib/responsive.ts",
+    "lib/block-text.ts",
+    "lib/storage.ts",
+    "lib/schema.ts",
+    "lib/types.ts",
+    "puck/adapter.ts"
+  ],
+  "exclude": []
+}
