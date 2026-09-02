@@ -1,0 +1,12 @@
+{
+  "name": "{{name}}",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {{dependencies}},
+  "devDependencies": {{devDependencies}}
+}
