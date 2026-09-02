@@ -1,0 +1,36 @@
+{
+  "name": "kiln",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/bundle.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/bundle.mjs",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "next typegen && tsc --noEmit",
+    "verify:export": "node scripts/verify-export.mjs",
+    "thumbs": "node scripts/thumbs.mjs",
+    "i18n:check": "node scripts/i18n-check.mjs",
+    "test": "node scripts/test.mjs",
+    "build:example": "node scripts/build-example.mjs"
+  },
+  "dependencies": {
+    "@puckeditor/core": "^0.23.0",
+    "embla-carousel-react": "^8.6.0",
+    "jszip": "^3.10.1",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@8.15.4+sha512.0bd3a9be9eb0e9a692676deec00a303ba218ba279d99241475616b398dbaeedd11146f92c2843458f557b1d127e09d4c171e105bdcd6b61002b39685a8016b9e"
+}
