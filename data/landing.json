@@ -1,0 +1,272 @@
+{
+  "id": "kiln-landing-0000-4000-8000-000000000000",
+  "version": 1,
+  "meta": {
+    "title": "Kiln — drag and drop, download a clean Next.js repo",
+    "description": "Kiln is a site builder whose output does not look like builder output. The folder you download contains no Kiln code — only Next.js, React and Tailwind.",
+    "lang": "en"
+  },
+  "tokens": {
+    "colors": {
+      "bg": "#ffffff",
+      "fg": "#14181d",
+      "muted": "#5c6672",
+      "primary": "#14181d",
+      "primaryFg": "#ffffff",
+      "border": "#e4e8ec"
+    },
+    "font": {
+      "heading": "inter",
+      "body": "inter"
+    },
+    "scale": {
+      "h1": 65,
+      "h2": 33,
+      "h3": 21,
+      "body": 17
+    },
+    "radius": 8,
+    "spacing": "normal"
+  },
+  "nodes": [
+    {
+      "id": "hdr",
+      "type": "HeaderSplit",
+      "props": {
+        "logo": "Kiln",
+        "links": [
+          {
+            "label": "How it works",
+            "href": "#nasil"
+          },
+          {
+            "label": "Demos",
+            "href": "#demolar"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/enesseven/kiln"
+          }
+        ],
+        "cta": {
+          "label": "See the demos",
+          "href": "#demolar"
+        },
+        "animation": {
+          "type": "fade",
+          "duration": 400,
+          "delay": 0,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "HeroText",
+      "props": {
+        "title": "Drag and drop. Download a Next.js repo that looks hand-written.",
+        "subtitle": "Kiln is a site builder, but its output does not look like builder output. There is not a single line of Kiln in the folder you download — only Next.js, React and Tailwind.",
+        "cta": {
+          "label": "See the demos",
+          "href": "#demolar"
+        },
+        "secondaryCta": {
+          "label": "GitHub",
+          "href": "https://github.com/enesseven/kiln"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 650,
+          "delay": 60,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "word",
+          "stagger": 55
+        }
+      }
+    },
+    {
+      "id": "iddia",
+      "type": "Services",
+      "props": {
+        "title": "Three claims, all three measurable",
+        "subtitle": "Each one is guarded by a test that runs on every change.",
+        "items": [
+          {
+            "icon": "onay",
+            "title": "The output really is clean",
+            "text": "The block and lib files in the downloaded repo are byte-for-byte the files the studio runs. No transformation, no code generation."
+          },
+          {
+            "icon": "kalkan",
+            "title": "Responsive from the schema",
+            "text": "You do not write media queries. You write base, md and lg values in JSON; the system turns them into Tailwind classes. The scale is fixed — no arbitrary values."
+          },
+          {
+            "icon": "yildiz",
+            "title": "0 KB of animation",
+            "text": "Scroll reveals and word-by-word headings are plain CSS transitions. No Framer Motion; the only animation code that reaches the browser is a small IntersectionObserver."
+          }
+        ],
+        "columns": 3,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        }
+      }
+    },
+    {
+      "id": "nasil",
+      "type": "Features",
+      "props": {
+        "title": "How it works",
+        "subtitle": "Three steps. No setup wizard, no account.",
+        "items": [
+          {
+            "title": "1. Edit",
+            "text": "Drag blocks in, type your copy, pick colours and type from the theme panel. Changes land on the canvas instantly and are kept in your browser.",
+            "image": {
+              "src": "/demo/adim-1.svg",
+              "alt": "Block list and canvas in the Kiln editor"
+            }
+          },
+          {
+            "title": "2. Download",
+            "text": "The download button produces a zip. Inside it: only the blocks you used, your content as JSON, and a Next.js skeleton ready to run.",
+            "image": {
+              "src": "/demo/adim-2.svg",
+              "alt": "Downloaded zip file icon"
+            }
+          },
+          {
+            "title": "3. npm run dev",
+            "text": "Unzip, install, run. It builds with zero warnings. From there it is your repo — write blocks by hand or replace all of it.",
+            "image": {
+              "src": "/demo/adim-3.svg",
+              "alt": "npm run dev output in a terminal"
+            }
+          }
+        ],
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 110
+        },
+        "anchorId": "nasil"
+      }
+    },
+    {
+      "id": "demolar",
+      "type": "Services",
+      "props": {
+        "title": "Four demos",
+        "subtitle": "All built from the same block library with different themes. Each one can be downloaded and run.",
+        "items": [
+          {
+            "icon": "kalkan",
+            "title": "Demir Kepenk",
+            "text": "Shutter and blind installer in Istanbul. Plain theme, eight blocks.",
+            "href": "/preview/kepenk"
+          },
+          {
+            "icon": "ev",
+            "title": "Kesit Mimarlık",
+            "text": "Architecture studio in Izmir. Warm theme, serif headings, full-bleed hero.",
+            "href": "/preview/mimarlik"
+          },
+          {
+            "icon": "anahtar",
+            "title": "Talaş Atölye",
+            "text": "Made-to-measure furniture workshop in Ankara. Centered header, zig-zag strips.",
+            "href": "/preview/atolye"
+          },
+          {
+            "icon": "yildiz",
+            "title": "Zeytin Bahçe",
+            "text": "Event venue near Bursa. Carousel, single call to action.",
+            "href": "/preview/bahce"
+          }
+        ],
+        "columns": 4,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 80
+        },
+        "anchorId": "demolar"
+      }
+    },
+    {
+      "id": "cta",
+      "type": "CTA",
+      "props": {
+        "title": "Open the editor and build a page in five minutes.",
+        "cta": {
+          "label": "Open the editor",
+          "href": "/edit"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "ftr",
+      "type": "Footer",
+      "props": {
+        "about": {
+          "title": "Kiln",
+          "text": "An open-source site builder. Drag and drop in the browser, download a clean Next.js repository. No account, no server, no database."
+        },
+        "links": {
+          "title": "Links",
+          "items": [
+            {
+              "label": "How it works",
+              "href": "#nasil"
+            },
+            {
+              "label": "Demos",
+              "href": "#demolar"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/enesseven/kiln"
+            },
+            {
+              "label": "Open the editor",
+              "href": "/edit"
+            }
+          ]
+        },
+        "contact": {
+          "title": "Project",
+          "hours": "MIT license · Next.js 16 · Tailwind v4"
+        },
+        "bottomText": "© 2026 Kiln. MIT licensed."
+      }
+    }
+  ]
+}

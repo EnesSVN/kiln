@@ -1,0 +1,272 @@
+{
+  "id": "kiln-landing-0000-4000-8000-000000000000",
+  "version": 1,
+  "meta": {
+    "title": "Kiln — sürükle bırak, temiz Next.js repo'su indir",
+    "description": "Sürükle-bırak ile site kur, elle yazılmış gibi görünen bir Next.js repo'su indir. Builder'a ait tek satır yok.",
+    "lang": "tr"
+  },
+  "tokens": {
+    "colors": {
+      "bg": "#ffffff",
+      "fg": "#14181d",
+      "muted": "#5c6672",
+      "primary": "#14181d",
+      "primaryFg": "#ffffff",
+      "border": "#e4e8ec"
+    },
+    "font": {
+      "heading": "inter",
+      "body": "inter"
+    },
+    "scale": {
+      "h1": 65,
+      "h2": 33,
+      "h3": 21,
+      "body": 17
+    },
+    "radius": 8,
+    "spacing": "normal"
+  },
+  "nodes": [
+    {
+      "id": "hdr",
+      "type": "HeaderSplit",
+      "props": {
+        "logo": "Kiln",
+        "links": [
+          {
+            "label": "Nasıl çalışır",
+            "href": "#nasil"
+          },
+          {
+            "label": "Demolar",
+            "href": "#demolar"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/enesseven/kiln"
+          }
+        ],
+        "cta": {
+          "label": "Demoları gör",
+          "href": "#demolar"
+        },
+        "animation": {
+          "type": "fade",
+          "duration": 400,
+          "delay": 0,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "hero",
+      "type": "HeroText",
+      "props": {
+        "title": "Sürükle bırak, elle yazılmış gibi görünen bir Next.js repo'su indir.",
+        "subtitle": "Kiln bir site kurucusu ama çıktısı bir kurucu çıktısına benzemiyor. İndirdiğiniz klasörde Kiln'e ait tek satır yok — sadece Next.js, React ve Tailwind.",
+        "cta": {
+          "label": "Demoları gör",
+          "href": "#demolar"
+        },
+        "secondaryCta": {
+          "label": "GitHub",
+          "href": "https://github.com/enesseven/kiln"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 650,
+          "delay": 60,
+          "trigger": "load",
+          "once": true,
+          "splitBy": "word",
+          "stagger": 55
+        }
+      }
+    },
+    {
+      "id": "iddia",
+      "type": "Services",
+      "props": {
+        "title": "Üç iddia, üçü de ölçülebilir",
+        "subtitle": "Her biri sürekli çalışan bir testle korunuyor.",
+        "items": [
+          {
+            "icon": "onay",
+            "title": "Çıktı gerçekten temiz",
+            "text": "İndirilen repo'daki blok ve lib dosyaları, studio'nun çalıştırdığı dosyaların bayt bayt aynısı. Dönüşüm yok, kod üretimi yok."
+          },
+          {
+            "icon": "kalkan",
+            "title": "Şemadan responsive",
+            "text": "Media query yazmıyorsunuz. JSON'a base, md, lg değerlerini yazıyorsunuz; sistem Tailwind sınıflarına çeviriyor. Ölçek sabit, keyfi değer yok."
+          },
+          {
+            "icon": "yildiz",
+            "title": "0 KB animasyon",
+            "text": "Scroll reveal ve kelime kelime beliren başlıklar saf CSS geçişleriyle. Framer Motion yok; tarayıcıya giden tek animasyon kodu küçük bir IntersectionObserver."
+          }
+        ],
+        "columns": 3,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 90
+        }
+      }
+    },
+    {
+      "id": "nasil",
+      "type": "Features",
+      "props": {
+        "title": "Nasıl çalışır",
+        "subtitle": "Üç adım. Arada kurulum sihirbazı ya da hesap açma yok.",
+        "items": [
+          {
+            "title": "1. Düzenle",
+            "text": "Blokları sürükleyip bırakın, metinleri yazın, tema panelinden renk ve yazı tipini seçin. Değişiklik anında tuvale yansır, tarayıcıda saklanır.",
+            "image": {
+              "src": "/demo/adim-1.svg",
+              "alt": "Kiln editöründe blok listesi ve tuval"
+            }
+          },
+          {
+            "title": "2. İndir",
+            "text": "Projeyi indir düğmesi bir zip üretir. İçinde sadece kullandığınız bloklar, içeriğiniz JSON olarak ve çalışmaya hazır bir Next.js iskeleti bulunur.",
+            "image": {
+              "src": "/demo/adim-2.svg",
+              "alt": "İndirilen zip dosyası simgesi"
+            }
+          },
+          {
+            "title": "3. npm run dev",
+            "text": "Zip'i açın, bağımlılıkları kurun, çalıştırın. Uyarısız derlenir. Bundan sonrası sizin repo'nuz — isterseniz elle blok yazın, isterseniz tamamını değiştirin.",
+            "image": {
+              "src": "/demo/adim-3.svg",
+              "alt": "Terminalde npm run dev çıktısı"
+            }
+          }
+        ],
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 110
+        },
+        "anchorId": "nasil"
+      }
+    },
+    {
+      "id": "demolar",
+      "type": "Services",
+      "props": {
+        "title": "Dört demo",
+        "subtitle": "Hepsi aynı blok kütüphanesiyle, farklı temalarla kuruldu. Her biri indirilip çalıştırılabilir.",
+        "items": [
+          {
+            "icon": "kalkan",
+            "title": "Demir Kepenk",
+            "text": "Kepenk ve panjur firması. Sade tema, iki blok.",
+            "href": "/preview/kepenk"
+          },
+          {
+            "icon": "ev",
+            "title": "Kesit Mimarlık",
+            "text": "Mimarlık stüdyosu. Sıcak tema, serif başlıklar, tam ekran hero.",
+            "href": "/preview/mimarlik"
+          },
+          {
+            "icon": "anahtar",
+            "title": "Talaş Atölye",
+            "text": "Ismarlama mobilya. Kurumsal tema, hizmet kartları, galeri, SSS.",
+            "href": "/preview/atolye"
+          },
+          {
+            "icon": "yildiz",
+            "title": "Zeytin Bahçe",
+            "text": "Etkinlik mekânı. Carousel, CTA bandı, iletişim formu.",
+            "href": "/preview/bahce"
+          }
+        ],
+        "columns": 4,
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 80
+        },
+        "anchorId": "demolar"
+      }
+    },
+    {
+      "id": "cta",
+      "type": "CTA",
+      "props": {
+        "title": "Kaynak kodu açık. MIT lisanslı.",
+        "cta": {
+          "label": "Editörü aç",
+          "href": "/edit"
+        },
+        "animation": {
+          "type": "slide-up",
+          "duration": 600,
+          "delay": 0,
+          "trigger": "scroll",
+          "once": true,
+          "splitBy": "none",
+          "stagger": 40
+        }
+      }
+    },
+    {
+      "id": "ftr",
+      "type": "Footer",
+      "props": {
+        "about": {
+          "title": "Kiln",
+          "text": "Sürükle-bırak ile site kur, elle yazılmış gibi görünen bir Next.js repo'su indir. Bu sayfanın kendisi de Kiln'in blok kütüphanesiyle kuruldu."
+        },
+        "links": {
+          "title": "Bağlantılar",
+          "items": [
+            {
+              "label": "Nasıl çalışır",
+              "href": "#nasil"
+            },
+            {
+              "label": "Demolar",
+              "href": "#demolar"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/enesseven/kiln"
+            },
+            {
+              "label": "Editörü aç",
+              "href": "/edit"
+            }
+          ]
+        },
+        "contact": {
+          "title": "Proje",
+          "hours": "MIT lisansı · Next.js 16 · Tailwind v4"
+        },
+        "bottomText": "© 2026 Kiln. Bu sayfa Kiln'in kendi bloklarıyla render ediliyor."
+      }
+    }
+  ]
+}
